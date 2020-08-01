@@ -3,6 +3,7 @@ class Dog
   attr_accessor :name
   
   def initialize(name)
+    @name
     self.save
   end 
   
